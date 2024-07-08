@@ -11,8 +11,6 @@ public class CustomUserDetailsService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        // Carregar o usuário do banco de dados
-        // Exemplo básico:
         if ("user".equals(username)) {
             return org.springframework.security.core.userdetails.User
                     .withUsername("user")

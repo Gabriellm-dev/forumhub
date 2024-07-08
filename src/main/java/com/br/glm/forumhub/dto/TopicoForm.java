@@ -1,5 +1,8 @@
 package com.br.glm.forumhub.dto;
 
+import com.br.glm.forumhub.model.Curso;
+import com.br.glm.forumhub.model.Topico;
+import com.br.glm.forumhub.repository.CursoRepository;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,7 +1,7 @@
 package com.br.glm.forumhub.controller;
 
 
-import com.br.alura.forum.security.JwtTokenProvider;
+import com.br.glm.forumhub.security.JwtTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
